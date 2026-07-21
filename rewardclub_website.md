@@ -46,31 +46,6 @@ We have successfully refined, styled, and completed the following developments o
 
 ---
 
-## 2. Affiliate Marketing Mobile App (Completed Features)
-
-We have successfully completed development and testing on the following modules of the companion Reward Club Mobile Application (`com.rewardclub.app`):
-
-### 💰 Coin Reward & Valuation Engine
-* **Fixed Conversion Rate**: Established the loyalty math logic where **4 Coins = ₹1 INR** (fixed value, non-fluctuating).
-* **Automatic Conversion Tracker**: Implemented real-time coin calculation for tracked user purchases.
-
-### 💳 Wallet & Instant Payout System
-* **Lowered Cashout Threshold**: Reduced the minimum verified balance required to trigger a cashout from ₹250 to **₹100**.
-* **Payment Gateway Integration**: Configured payouts via instant UPI transfers and bank accounts (IMPS/NEFT) with a target processing window of under 24 hours.
-
-### 📊 Click Tracking & Tracking Status
-* **48-Hour Standard Tracking**: Standardized all affiliate categories to a single status tracker of **"Tracks in 48 hours"** for clear user expectations.
-* **Tracking State Pipeline**: Setup statuses for pending coins, verified/confirmed coins, and declined/canceled coins.
-
-### 👥 Referral Engine (Lifetime Commissions)
-* **Referral Link & Code Sharing**: Designed in-app sharing of unique user referral codes.
-* **10% Lifetime Commission**: Built commission pipelines that automatically credit 10% of referral earnings back to the referrer's wallet.
-
-### 🔒 Security & Fraud Check
-* **Anti-Abuse Verification**: Created backend checks to restrict multi-account creation, bot behaviors, and synthetic transactions.
-
----
-
 Please let us know if you need any additional adjustments or feature rollouts!
 
 Best regards,  
