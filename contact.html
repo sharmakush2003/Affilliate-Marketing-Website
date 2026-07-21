@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Reward Club India</title>
+  <meta name="description" content="Get in touch with Reward Club. Reach our support desk or send business partnership inquiries regarding integration.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fas fa-crown"></i></div>
+        <div class="logo-text">Reward<span>Club</span></div>
+      </a>
+      
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="how-it-works.html" class="nav-link">How It Works</a></li>
+        <li><a href="index.html#brands" class="nav-link">Brands</a></li>
+        <li><a href="index.html#deals" class="nav-link">Hot Deals</a></li>
+        <li><a href="faq.html" class="nav-link">FAQs</a></li>
+        <li class="mobile-only"><a href="privacy.html" class="nav-link">Privacy Policy</a></li>
+        <li class="mobile-only"><a href="terms.html" class="nav-link">Terms & Conditions</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <span class="nav-showcase-notice"><i class="fas fa-star"></i> Showcase Only</span>
+        <a href="index.html#download" class="btn btn-primary">Download App</a>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle Navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- INNER HERO -->
+  <section class="inner-page-hero">
+    <div class="container">
+      <span class="section-tag">Get In Touch</span>
+      <h1 class="hero-title text-gradient" style="font-size: 3rem;">Contact Reward Club</h1>
+      <p class="section-desc">Have questions about tracking, withdrawals, or business integrations? We're here to help you 24/7.</p>
+    </div>
+  </section>
+
+  <!-- INNER CONTENT -->
+  <section class="inner-page-content">
+    <div class="container contact-grid">
+      
+      <!-- Contact Info list -->
+      <div class="contact-info-list">
+        <div class="glass-card">
+          <h3 class="footer-title" style="margin-bottom: 25px; color: var(--primary-light);">Contact Information</h3>
+          
+          <div class="info-item" style="margin-bottom: 25px;">
+            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+            <div class="info-details">
+              <h4>Support Email</h4>
+              <p><a href="mailto:support@rewardclub.in">support@rewardclub.in</a></p>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">We reply within 12 business hours.</p>
+            </div>
+          </div>
+          
+          <div class="info-item" style="margin-bottom: 25px;">
+            <div class="info-icon"><i class="fas fa-handshake"></i></div>
+            <div class="info-details">
+              <h4>Partnerships & Brands</h4>
+              <p><a href="mailto:partners@rewardclub.in">partners@rewardclub.in</a></p>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">For marketing integrations and affiliate queries.</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="info-details">
+              <h4>Corporate Office</h4>
+              <p>Reward Club Tech Solutions Private Limited</p>
+              <p>7th Floor, Block C, Green Glen Layout, Outer Ring Road,</p>
+              <p>Bengaluru, Karnataka - 560103</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <h3 class="footer-title" style="margin-bottom: 10px;">Frequently Asked Questions</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 20px;">Before sending us a message, check if your query is covered in our support database.</p>
+          <a href="index.html#faqs" class="btn btn-secondary" style="font-size: 0.85rem;"><i class="fas fa-question-circle"></i> View FAQ Database</a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="glass-card">
+        <h3 class="footer-title" style="margin-bottom: 25px; color: var(--secondary);">Send Us a Message</h3>
+        
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! Our support desk will reach out shortly.'); this.reset();">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="query-type">Reason for Inquiry</label>
+            <select id="query-type" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="tracking">Cashback Tracking Issue</option>
+              <option value="withdrawal">Withdrawal / Cashout Query</option>
+              <option value="account">Account & Referral settings</option>
+              <option value="partnership">Business Partnership / Add Brand</option>
+              <option value="other">General Feedback / Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Summary of your concern" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message Details</label>
+            <textarea id="message" rows="5" placeholder="Provide details about your query..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="margin-top: 10px; width: fit-content;"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><i class="fas fa-crown"></i></div>
+          <div class="logo-text">Reward<span>Club</span></div>
+        </a>
+        <p class="footer-desc">India's leading cashback & rewards ecosystem helping users save on everyday expenses.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Company</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html#business-model">Business Model</a></li>
+          <li><a href="contact.html">Partnerships</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="how-it-works.html">How it Works</a></li>
+          <li><a href="index.html#brands">Partner Brands</a></li>
+          <li><a href="index.html#deals">Exclusive Deals</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h3 class="footer-title">Weekly Savings Newsletter</h3>
+        <p class="newsletter-desc">Subscribe to get alert updates on premium cashback rates and high discount voucher codes.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom" style="padding: 20px 0 0;">
+      <p>&copy; 2026 Reward Club India. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>

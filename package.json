@@ -1,0 +1,12 @@
+{
+  "name": "reward-club-website",
+  "version": "1.0.0",
+  "description": "Reward Club Showcase Website",
+  "scripts": {
+    "start": "live-server --no-browser",
+    "dev": "live-server --no-browser"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
