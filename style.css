@@ -408,7 +408,7 @@ header .logo-text span {
 
 /* HERO SECTION */
 .hero {
-  padding-top: 80px !important;
+  padding-top: 110px !important;
   padding-bottom: 0 !important;
   position: relative;
   display: flex;
@@ -2562,7 +2562,7 @@ footer {
   .nav-actions { display: none; }
   
   .hero {
-    padding-top: 70px !important;
+    padding-top: 100px !important;
     padding-bottom: 20px !important;
   }
   .hero-banner-wrap {
