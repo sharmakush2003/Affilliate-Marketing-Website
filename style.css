@@ -2075,7 +2075,7 @@ footer {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr;
   gap: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .footer-brand {
@@ -2201,7 +2201,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.4);
   flex-wrap: wrap;
@@ -2581,6 +2581,7 @@ footer {
     grid-template-columns: 1fr;
     gap: 32px;
     text-align: center;
+    margin-bottom: 24px;
   }
   .footer-grid > * {
     grid-column: span 1 !important;
@@ -2617,7 +2618,7 @@ footer {
     align-items: center;
     text-align: center;
     border-top: 1px solid rgba(15, 23, 42, 0.06);
-    padding: 20px 0 0 !important;
+    padding: 15px 0 0 !important;
   }
   .footer-bottom-links {
     justify-content: center;
