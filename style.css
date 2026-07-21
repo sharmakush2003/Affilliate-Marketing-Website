@@ -2267,7 +2267,9 @@ footer {
 /* CONTACT STYLES */
 .contact-grid {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin: 0 auto;
   gap: 50px;
 }
 
